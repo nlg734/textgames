@@ -1,6 +1,7 @@
 #include <iostream>
 #include <limits>
 #include "rps.cpp"
+#include "gtn.cpp"
 
 int main() {
 
@@ -18,7 +19,7 @@ int main() {
         if (pick == 1) {
             rps_main();
         } else if (pick == 2) {
-            std::cout << "This is currently not implemented. Pick again." << std::endl;
+            gtn_main();
         } else if (pick == 3) {
             std::cout << "This is currently not implemented. Pick again." << std::endl;
         } else if (pick == 4) {
